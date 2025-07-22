@@ -5,18 +5,20 @@
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-    z-index: 2; /* Make sure it's above the effect */
+    z-index: 2;
   }
   
   .hero-text h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    cursor:default;
   }
   
   .hero-text p {
     font-size: 1.25rem;
     font-weight: 400;
+    cursor:default;
   }
 
 .orb-container {
