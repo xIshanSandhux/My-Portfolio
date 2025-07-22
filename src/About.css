@@ -1,6 +1,14 @@
-.about-container {
-    padding: 40px 0; /* or padding: 40px; for all sides */
+.about-row {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* center the card horizontally */
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* space between card and text */
+    margin-top: 32px;
+  }
+  
+  .about-side-text {
+    max-width: 400px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    cursor: default;
   }

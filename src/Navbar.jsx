@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import ClickSpark from "./helper/clickSpark";
+// import ClickSpark from "./helper/clickSpark";
 
 export default function Navbar() {
   return (
