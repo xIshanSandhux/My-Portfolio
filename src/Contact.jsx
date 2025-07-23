@@ -4,13 +4,24 @@ import miniAvatarImg from './assets/github-icon-lg.png';
 import emailImg from './assets/email.jpg';
 import linkedinImg from './assets/linkedin.jpg';
 import './Contact.css';
+import Threads from './helper/thread';
 
 export default function Contact() {
     return (
-        <div id="contact">
+        <div id="contact" style={{ position: 'relative' }}>
+            <div style={{ width: '100%', height: '600px' }}>
+            <Threads
+                amplitude={2.5}
+                distance={0}
+                enableMouseInteraction={false}
+            />
+
+             <div className="contact-text-container" >
             <h1>Contact</h1>
             <p>Feel free to reach out to me via any of the following!</p>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px' }}>                
+            </div>
+
+            <div className="contact-icon-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px' }}>                
             <TiltedCard
             imageSrc={miniAvatarImg}
             altText="GitHub"
@@ -81,7 +92,8 @@ export default function Contact() {
             }
             />            
             </div>
+            </div>
            
-        </div>
+</div>
     )
 }
