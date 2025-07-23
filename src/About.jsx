@@ -1,11 +1,9 @@
 import React from "react";
 import ProfileCardComponent from "./helper/profileCard";
 import "./About.css";
-import avatarImg from './assets/img2.png';
 import miniAvatarImg from './assets/github.webp';
 import { useRef } from 'react';
 import VariableProximity from './helper/variableProx';
-// import DecryptedText from "./helper/DecryptText";
 
 
 export default function About() {
@@ -34,9 +32,9 @@ export default function About() {
     <div className="about-side-text">
       <p> 
       <div
-ref={containerRef}
-style={{position: 'relative', fontSize: '2rem', fontWeight: 'semibold'}}
->        
+        ref={containerRef}
+        style={{position: 'relative', fontSize: '2rem', fontWeight: 'semibold'}}
+        >        
          <VariableProximity
         label={"Hi! I'm Ishan, a 4th year software engineering student at University of Victoria (UVic) who loves to code and build cool stuff."}
         className={'variable-proximity-demo'}

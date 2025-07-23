@@ -1,0 +1,17 @@
+.github-pill {
+    background: rgba(0, 0, 0, 0); /* semi-transparent gray */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 1em;      /* pill shape */
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: background 0.2s;
+    outline: none;
+  }
+  
+  /* .github-pill:hover {
+    background: rgba(80, 80, 80, 0);
+  } */

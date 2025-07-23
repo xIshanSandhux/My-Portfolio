@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import About from './About'
+import Contact from './Contact'
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
     <Navbar />
     <Hero />
     <About id="about" />
+    <Contact id="contact" />
     </>
   )
 }
