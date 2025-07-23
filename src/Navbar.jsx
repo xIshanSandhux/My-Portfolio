@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import ClickSpark from "./helper/clickSpark";
+// import ClickSpark from "./helper/clickSpark";
 
 export default function Navbar() {
   return (
 
-    <nav className="navbar" >
+    <nav className="navbar" id="navbar">
       <div className="navbar-left">
         <span 
         className="navbar-title" 
@@ -17,7 +17,17 @@ export default function Navbar() {
       </div>
       <div className="navbar-links">
         <a href="#">Home</a>
-        <a href="#">About</a>
+        <a
+        onClick={() => {
+          const aboutSection = document.getElementById("about");
+          if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }}
+        style={{ cursor: "pointer" }}
+        >
+          About
+        </a>
         <a href="#">Projects</a>
         <a href="#">Contact</a>
       </div>

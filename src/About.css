@@ -1,0 +1,17 @@
+#about {
+    scroll-margin-top: 70px !important;
+}
+.about-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* space between card and text */
+    margin-top: 32px;
+  }
+  
+  .about-side-text {
+    max-width: 400px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    cursor: default;
+  }
