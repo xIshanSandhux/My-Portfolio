@@ -30,7 +30,8 @@ export default function Navbar() {
         </a>
         <a href="#">Projects</a>
         <a 
-        onClick={() => {
+        onClick={e => {
+          e.preventDefault();
           const contactSection = document.getElementById("contact");
           if (contactSection) {
             contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
