@@ -5,8 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px; /* space between card and text */
-    margin-top: 32px;
+    gap: 40px;
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
   }
   
   .about-side-text {
@@ -14,4 +16,12 @@
     font-size: 1.1rem;
     color: #ffffff;
     cursor: default;
+  }
+
+  .about-content {
+    margin-bottom: 0.5rem;
+  }
+  .about-content h1 {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
   }

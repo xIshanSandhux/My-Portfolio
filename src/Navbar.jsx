@@ -29,7 +29,15 @@ export default function Navbar() {
           About
         </a>
         <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a 
+        onClick={e => {
+          e.preventDefault();
+          const contactSection = document.getElementById("contact");
+          if (contactSection) {
+            contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }}
+        href="#">Contact</a>
       </div>
     </nav>
   );
