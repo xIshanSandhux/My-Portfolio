@@ -32,6 +32,15 @@ export default function Navbar() {
         <a 
         onClick={e => {
           e.preventDefault();
+          const expSection = document.getElementById("exp");
+          if (expSection) {
+            expSection.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }}
+        href="#">Experience</a>
+        <a 
+        onClick={e => {
+          e.preventDefault();
           const contactSection = document.getElementById("contact");
           if (contactSection) {
             contactSection.scrollIntoView({ behavior: "smooth", block: "start" });

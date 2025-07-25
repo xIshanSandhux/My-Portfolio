@@ -4,13 +4,15 @@ import "./About.css";
 import miniAvatarImg from './assets/github.webp';
 import { useRef } from 'react';
 import VariableProximity from './helper/variableProx';
+import Particles from './helper/particles';
 
 
 export default function About() {
   const containerRef = useRef(null);
     return (
-
+      
   <div className="about-container" id="about">
+    
   <div className="about-content" style={{marginTop: '10px'}}>
     <h1>About Me</h1>
   </div>
