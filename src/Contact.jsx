@@ -5,6 +5,7 @@ import emailImg from './assets/email.jpg';
 import linkedinImg from './assets/linkedin.jpg';
 import './Contact.css';
 import Threads from './helper/thread';
+import Particles from './helper/particles';
 
 export default function Contact() {
     return (
@@ -15,6 +16,7 @@ export default function Contact() {
                 distance={0}
                 enableMouseInteraction={false}
             />
+            
 
              <div className="contact-text-container" >
             <h1>Contact</h1>

@@ -6,6 +6,7 @@ import Navbar from './Navbar'
 import Hero from './Hero'
 import About from './About'
 import Contact from './Contact'
+import Exp from './Exp'
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
     <Navbar />
     <Hero />
     <About id="about" />
+    <Exp id="exp" />
     <Contact id="contact" />
     </>
   )
